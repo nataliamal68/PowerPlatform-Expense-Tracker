@@ -2,7 +2,7 @@
 
 This is a personal project I built to practice creating end-to-end business solutions. The goal was to build a system where employees can submit expenses and managers can approve them, without using manual emails.
 
-## 💡 How it works
+## How it works
 
 I focused on making the app secure and "smart" so users don't make mistakes.
 
@@ -25,13 +25,13 @@ Instead of hardcoding the approver's email, I used the **Office 365 Users connec
 
 ---
 
-## 🔒 Note on Source Code
+## Note on Source Code
 **Due to corporate compliance and data privacy policies, I cannot share the raw solution files (.zip).**
 However, the screenshots below demonstrate the logic and UI I implemented.
 
 ---
 
-## 📸 Project Gallery
+## Project Gallery
 
 ### 1. Status Logic in Action
 *In the "New Expense" screen, the status is automatically set to "Pending approval" and locked.*
@@ -42,9 +42,11 @@ However, the screenshots below demonstrate the logic and UI I implemented.
 
 ### 2. Dashboard & Details
 *Main gallery with conditional formatting (colors based on status).*
+
 ![Gallery Screen](app-gallery-screen.png)
 
 *Details view of a selected expense.*
+
 ![Details Screen](app-details-screen.png)
 
 ### 3. Automation Flow
