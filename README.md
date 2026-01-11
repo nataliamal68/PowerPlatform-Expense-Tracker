@@ -18,7 +18,7 @@ Instead of hardcoding the approver's email, I used the **Office 365 Users connec
 * The Power Automate flow looks up the manager of the person submitting the request.
 * **Error Handling:** If a user doesn't have a manager assigned in AD, I used a "Try/Catch" scope in the flow to catch the error and send the request to a generic Finance email instead.
 
-## 🛠 Tech Stack
+## Tech Stack
 * **Power Apps:** Canvas app for the frontend.
 * **SharePoint Online:** Used as the database.
 * **Power Automate:** Handles the logic and approval emails.
@@ -51,7 +51,9 @@ However, the screenshots below demonstrate the logic and UI I implemented.
 
 ### 3. Automation Flow
 *The approval logic in Power Automate.*
+
 ![Approval Flow](approval-flow.png)
 
 *My error handling pattern (Try/Catch) for finding the manager.*
+
 ![Error Handling](error-handling-flow.png)
