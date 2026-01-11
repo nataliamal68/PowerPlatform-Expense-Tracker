@@ -31,7 +31,7 @@ Instead of hardcoding the approver's email, I used the **Office 365 Users connec
 
 ## Tech Stack
 * **Power Apps:** Canvas app for the frontend.
-* **SharePoint List:** Used as the database.
+* **SharePoint List:** Used as the database (Item-Level Security).
 * **Power Automate:** Handles the logic and approval emails.
 
 ---
